@@ -9,6 +9,6 @@ all: send sendv2
 send: RCSwitch.o send.o
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $+ -o $@ -lwiringPi
 sendv2: RCSwitch.o sendv2.o
-	$(CXX) $+ -o $@ $(CXXFLAGS) $(LDFLAGS)
+	$(CXX) $+ -o $@ -L/usr/src/wiringPi $(CXXFLAGS) $(LDFLAGS)
 clean:
 	$(RM) *.o send
