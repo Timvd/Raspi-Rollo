@@ -40,3 +40,5 @@ Sources
 - https://forum.mysensors.org/post/91706 
 - https://github.com/sui77/rc-switch/issues/54#issuecomment-516450412
 
+**Credits https://github.com/bjwelker/Raspi-Rollo for putting everything together**
+
